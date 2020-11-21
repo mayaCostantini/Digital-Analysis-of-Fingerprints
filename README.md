@@ -1,5 +1,9 @@
 # Digital Analysis of Fingerprints
 
+Group project realized in January 2020 by Roman Edward Zacharek, Matthias Lotta, Grégoire Lambert, Diana Farhat and Maya Costantini. 
+The aim of this project was to create a C++ library which simulates artefacts (blur, swirls, contrast differences...) appearing during the acquisition of fingerprints images by a sensor. This library was built in the idea of using it to train image recognition models to recognize the fingerprint of a user despite a lower image quality. 
+
+
 ## Compiling
 
 To compile test executables :
