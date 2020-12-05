@@ -59,7 +59,7 @@ Pour valider cette mise à jour // to approve this update :
 Pour mettre en ligne sur le répertoire distant // To put on line on the directory which is on your laptop : 
 `git push`
 
-Donc a chaque fois qu'on veut mettre à jour les modifications qu'on a faite // To sum up, each time you want to modify smth :
+Donc a chaque fois qu'on veut mettre à jour les modifications qu'on a faites // To sum up, each time you want to modify smth :
 ```
 git add .
 git commit -m "what i have changed"
@@ -69,9 +69,9 @@ git push
 
 Un fichier `.gitignore` permet de lister tout les fichiers qu'on veut toujours
 ignorer, cad ceux qui sont sur notre machine mais qu'on ne veut pas mettre en
-ligne. Par exemple les fichiers assez lourd (on évite de mettre les fichiers
-lourd sur le répertoire genre image ou gros executable parce qu'il faut tout
-retraiter à chaque pull/push et c'est chiant) ou qui servent à rien.
+ligne. Par exemple les fichiers assez lourds (on évite de mettre les fichiers
+lourds sur le répertoire comme des images ou gros executables parce qu'il faut tout
+retraiter à chaque pull/push) ou qui servent à rien.
 
 A n'importe quel moment, pour connaître le status des fichiers qu'on a changé et
 ce qui à changé sur le répertoire distant depuis notre dernier pull : `git status`
@@ -95,7 +95,7 @@ I hope this will be enough for most of us, with no bug whatsoever
 I mostly used this link and I'll copy paste the most relevant lines:
 https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
 
-Open a terminal and install the first dependancies (Roman have fun with homebrew):
+Open a terminal and install the first dependancies :
 ```
 sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
@@ -128,8 +128,7 @@ Then :
 sudo make install
 ```
 
-It should be good enough. If no error has appeared until there, you may
-download an [empreinte genitale](http://stateuic.habite.la/drawings/517.0.png) and compile this code :
+It should be good enough. If no error has appeared until there, you may compile this code :
 
 ```
 #include <opencv2/opencv.hpp>
